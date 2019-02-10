@@ -4,6 +4,12 @@ import {connect} from 'react-redux'
 import Navigation from 'components/navigation'
 
 class Dashboard extends Component{
+    static dataFetch(){
+        return {
+            welcome: "HEY WORKING"
+        }
+    }
+
     render(){
         return(
             <div>

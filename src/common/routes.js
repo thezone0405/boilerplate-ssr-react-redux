@@ -1,5 +1,5 @@
-import App from 'components/app'
-import Dashboard from 'containers/pages/dashboard'
+import App from 'client/components/app'
+import Dashboard from 'client/containers/pages/dashboard'
 
 const routes = [
     {

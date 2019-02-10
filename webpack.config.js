@@ -5,7 +5,7 @@ import ScriptExtHtmlWebpackPlugin from 'script-ext-html-webpack-plugin';
 export default {
     entry: path.join(__dirname, 'src/index.js'),
     output: {
-        path: path.join(__dirname, 'build'),
+        path: path.join(__dirname, 'public'),
         filename: '[name].bundle.js'
     },
     mode: process.env.NODE_ENV || 'development',
