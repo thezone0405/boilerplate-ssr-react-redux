@@ -1,4 +1,4 @@
-import App from 'client/components/app'
+import App from 'client/app'
 import Dashboard from 'client/containers/pages/dashboard'
 
 const routes = [
